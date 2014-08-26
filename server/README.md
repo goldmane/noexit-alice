@@ -14,4 +14,6 @@ The [models](https://github.com/goldmane/noexit-alice/tree/master/server/models)
 #####How to use
 This project was built for an extremely specific purpose and should not be used as-is. But, please feel free to use whatever you would like from it.
 
-In the [web.js](https://github.com/goldmane/noexit-alice/blob/master/server/web.js) file, there are db/credential __vars__ that need to be filled out. These are set up to use MongoDB. Use the .js files in the [models](https://github.com/goldmane/noexit-alice/tree/master/server/models) folder to build out the MongoDB collection schemas.
+__Step 1__: Once cloned, from the command-line in the server folder, run `npm install` to install all of the dependencies
+
+__Step 2__: In the [web.js](https://github.com/goldmane/noexit-alice/blob/master/server/web.js) file, there are db/credential __vars__ that need to be filled out. These are set up to use MongoDB. Use the .js files in the [models](https://github.com/goldmane/noexit-alice/tree/master/server/models) folder to build out the MongoDB collection schemas.
